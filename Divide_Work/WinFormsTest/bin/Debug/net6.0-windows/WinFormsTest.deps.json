@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WinFormsTest/1.0.0": {
+        "dependencies": {
+          "ClassLibrary1": "1.0.0",
+          "Console_Folder_namespace": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsTest.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "runtime": {
+          "ClassLibrary1.dll": {}
+        }
+      },
+      "Console_Folder_namespace/1.0.0": {
+        "runtime": {
+          "Console_Folder_namespace.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Console_Folder_namespace/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

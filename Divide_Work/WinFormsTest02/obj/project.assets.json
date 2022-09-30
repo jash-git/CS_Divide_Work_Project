@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
+      },
+      "Console_Folder_namespace/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Console_Folder_namespace.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Console_Folder_namespace.dll": {}
+        }
+      },
+      "WinFormsTest/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClassLibrary1": "1.0.0",
+          "Console_Folder_namespace": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinFormsTest.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinFormsTest.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
+    },
+    "Console_Folder_namespace/1.0.0": {
+      "type": "project",
+      "path": "../Console_Folder_namespace/Console_Folder_namespace.csproj",
+      "msbuildProject": "../Console_Folder_namespace/Console_Folder_namespace.csproj"
+    },
+    "WinFormsTest/1.0.0": {
+      "type": "project",
+      "path": "../WinFormsTest/WinFormsTest.csproj",
+      "msbuildProject": "../WinFormsTest/WinFormsTest.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ClassLibrary1 >= 1.0.0",
+      "WinFormsTest >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\devel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\devel\\Desktop\\Divide_Work\\WinFormsTest02\\WinFormsTest02.csproj",
+      "projectName": "WinFormsTest02",
+      "projectPath": "C:\\Users\\devel\\Desktop\\Divide_Work\\WinFormsTest02\\WinFormsTest02.csproj",
+      "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\devel\\Desktop\\Divide_Work\\WinFormsTest02\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\devel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\devel\\Desktop\\Divide_Work\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\devel\\Desktop\\Divide_Work\\ClassLibrary1\\ClassLibrary1.csproj"
+            },
+            "C:\\Users\\devel\\Desktop\\Divide_Work\\WinFormsTest\\WinFormsTest.csproj": {
+              "projectPath": "C:\\Users\\devel\\Desktop\\Divide_Work\\WinFormsTest\\WinFormsTest.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
